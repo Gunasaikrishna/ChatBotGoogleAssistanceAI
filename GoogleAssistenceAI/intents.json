@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hello", "hey"],
+        "responses": ["Hello! How can I help you?"]
+      },
+      {
+        "tag": "time",
+        "patterns": ["what time", "current time", "tell me time"],
+        "responses": ["Let me check the time."]
+      },
+      {
+        "tag": "open_google",
+        "patterns": ["open google", "launch google", "go to google"],
+        "responses": ["Opening Google."]
+      },
+      {
+        "tag": "open_facebook",
+        "patterns": ["open facebook", "launch facebook", "go to facebook"],
+        "responses": ["Opening Facebook."]
+      },
+      {
+        "tag": "open_youtube",
+        "patterns": ["open youtube", "launch youtube", "go to youtube"],
+        "responses": ["Opening youtube."]
+      },
+      {
+        "tag": "exit",
+        "patterns": ["exit", "quit", "bye", "close assistant"],
+        "responses": ["Goodbye!"]
+      }
+    ]
+  }
+  

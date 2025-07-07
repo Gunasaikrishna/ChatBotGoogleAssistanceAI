@@ -1,0 +1,50 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good day"],
+        "responses": ["Hello!", "Hi there! Let's begin your React Native interview."]
+      },
+      {
+        "tag": "name",
+        "patterns": ["My name is", "I am", "It's", "This is"],
+        "responses": ["Nice to meet you!", "Great, thanks for sharing your name."]
+      },
+      {
+        "tag": "experience",
+        "patterns": ["I have 2 years experience", "3 years experience", "My experience is", "I am experienced in React Native"],
+        "responses": ["Good to know your experience.", "Thanks for sharing your experience."]
+      },
+      {
+        "tag": "notice_period",
+        "patterns": ["My notice period is", "I have a 2 months notice period", "Notice period is", "Serving notice period"],
+        "responses": ["Got it! Thanks for the update on your notice period."]
+      },
+      {
+        "tag": "current_ctc",
+        "patterns": ["My current CTC is", "I am earning", "Current CTC", "Currently I earn"],
+        "responses": ["Thanks for telling your current CTC."]
+      },
+      {
+        "tag": "expected_ctc",
+        "patterns": ["I expect", "My expected CTC", "Looking for", "Hoping to get"],
+        "responses": ["Thank you for sharing your expected CTC."]
+      },
+      {
+        "tag": "relocation",
+        "patterns": ["I can relocate", "I am open to relocation", "Not willing to relocate"],
+        "responses": ["Thanks for confirming your relocation preference."]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "Happy to help!", "All the best for your interview!"]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, I didn’t get that. Can you rephrase?", "I'm not sure I understand."]
+      }
+    ]
+  }
+  
